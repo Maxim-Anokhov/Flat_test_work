@@ -1,0 +1,52 @@
+.ListPosts{
+    margin: auto;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    }
+    .Post{
+        display: none;
+        display: grid;
+        margin: auto;
+        width: 90%;
+        height:50%;
+        background-color: rgb(127, 164, 199);
+        grid-auto-flow: row;
+        row-gap: 20px;
+        grid-template-rows: 1fr 1.5fr 0.5fr;
+        padding: 10px;
+        border: solid rgb(177, 167, 167) 5px;
+        border-radius: 10px;
+        
+        
+    }
+    .wrapPost{
+        margin: 0;
+        padding: 2%;
+        height: min-content;
+    }
+    
+    .Header{
+        grid-row: 1/2;
+        display: flex;
+        justify-content: center;
+    }
+    .Post{
+        grid-row: 2/3;
+    }
+    .wrapButton{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       grid-row:  3/4;
+      
+    }
+    .commentsButton{
+        width: max-content;
+        height: 90%;
+        border-radius: 5Px;
+        background-color: rgb(97, 110, 153);
+        color: rgb(37, 41, 39);
+    }
+    

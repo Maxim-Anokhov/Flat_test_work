@@ -1,0 +1,59 @@
+.ModalComments {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.ModalCommentsActiv {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
+
+.Modal {
+    width: 80%;
+    height:max-content;
+    background-color: beige;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.clousdeButton{
+    width: 3%;
+    margin-right: 10px;
+    justify-self: end;
+}
+.postHeader{
+    justify-self: center;
+}
+
+.PostModal{
+    justify-content: center;
+    height: max-content;
+    margin: 10px;
+    background-color: rgb(191, 218, 209);
+    border-radius: 10px;
+}
+
+
+.Comment{
+    background-color: rgb(202, 202, 219);
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
